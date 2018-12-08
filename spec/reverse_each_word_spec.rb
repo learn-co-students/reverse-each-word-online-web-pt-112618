@@ -16,3 +16,17 @@ describe '#reverse_each_word' do
     reverse_each_word("Verifying that collect is being called.")
   end
 end
+
+def reverse_each_word ("Hi Naina, maybe you can do this")
+  reverse_each_word.each do |reverse|
+    "Hi Naina, maybe you can do this".reverse 
+  end 
+end 
+
+  def reverse_each_word ("Hi Naina, maybe you can do this")
+  reverse_each_word.collect do |reverse|
+    "Hi Naina, maybe you can do this".reverse 
+  end 
+end 
+
+  
